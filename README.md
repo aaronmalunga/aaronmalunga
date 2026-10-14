@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/github-profile-header.png" alt="Aaron Malunga — AI/ML Solutions Architect" width="100%" />
+  <img src="./assets/github_banner_aws-certified.png" alt="Aaron Malunga — AI/ML Solutions Architect" width="100%" />
 </p>
 
 <p align="center">
