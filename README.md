@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/github_banner_aws-certified.png" alt="Aaron Malunga — AI/ML Solutions Architect" width="100%" />
+  <img src="./assets/github_banner_aws-certified.png" alt="Aaron Malunga — Data & AI Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -7,13 +7,17 @@
   <a href="https://www.linkedin.com/in/aaronmalunga/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-4F6676?style=flat-square&logo=linkedin&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <sub>Open to remote Data &amp; AI engineering roles · EMEA &amp; worldwide · UTC+2</sub>
+</p>
+
 ---
 
 ## What I build
 
-I work at the intersection of **cloud architecture, machine learning, data systems, and agentic AI**.
+I build **agentic AI and data systems on AWS**, starting from a business question rather than a model.
 
-My portfolio is intentionally structured around systems that have to survive more than a demo: **failure, security boundaries, cost constraints, governance, observability, human approval, changing data, and operational ownership**.
+Every project begins with a problem that can be stated in one sentence, is measured against a no-AI baseline, and treats **security, cost, evaluation and observability** as part of the build, not an afterthought.
 
 > **Architecture principle:** intelligence does not automatically imply authority.
 
@@ -22,77 +26,71 @@ My portfolio is intentionally structured around systems that have to survive mor
 ## Featured systems
 
 ### 01 · Reliora
-**Agentic AI reliability & control platform**
+**Trustworthy customer-support agents**
 
-A production-oriented customer-support platform designed around controlled autonomy, deterministic authorization, idempotency, human approval, observability, security, privacy, and measurable operational evidence.
+*Business question:* how much should an AI support agent be allowed to do on its own when a wrong action costs money?
 
-**Architecture focus**  
-`Agentic AI` · `AWS` · `Terraform` · `HITL` · `Observability` · `Governance`
+Reliora tiers an agent's authority by risk, from read-only answers up to actions that need human approval, so routine requests run on their own while costly ones stay controlled.
+
+**Focus**  
+`Agentic AI` · `Amazon Bedrock` · `Human-in-the-loop` · `Observability` · `Governance`
 
 **Evidence**  
-`200+ local tests` · `RL0–RL3 autonomy controls` · `IaC` · `ADRs`
+`160+ automated tests` · `RL0–RL3 autonomy levels` · `Architecture decision records`
 
 **Status:** In development
 
 ---
 
-### 02 · Secure AI Capability Orchestration
-**Enterprise AI integration**
+### 02 · Revenue Leakage Reconciliation *(working title)*
+**Finance operations · AI-assisted reconciliation**
 
-A secure enterprise AI platform connecting identity, governed tool access, retrieval, cross-session memory, and business systems through explicit authorization boundaries.
+*Business question:* how much revenue slips between what was sold, what was delivered and what was billed, and can it be caught before month-end?
 
-**Architecture focus**  
-`Identity` · `RAG` · `Memory` · `Tool Use` · `Security`
+Detects mismatches across contracts, deliveries and invoices, then routes each case through a review lifecycle. Evaluated on public transaction data with injected, labelled leakage and compared against a rules-only baseline.
 
-**Status:** Planned / in build
+**Focus**  
+`Agentic AI` · `Data Reconciliation` · `Evaluation` · `Python`
 
----
-
-### 03 · Distributed Agent Workflow Platform
-**Multi-agent systems**
-
-A production-oriented multi-agent workflow platform focused on orchestration, task ownership, AgentOps, failure recovery, inter-agent contracts, and end-to-end observability.
-
-**Architecture focus**  
-`Multi-Agent` · `AgentOps` · `Orchestration` · `Reliability`
-
-**Status:** Planned
+**Status:** In development · repo coming
 
 ---
 
-### 04 · Experimentation & Causal Decision Platform
-**Data Science**
+### 03 · AgentGuard
+**Spending controls for AI agents, built on PayPal**
 
-A decision-science project using experimentation, statistical inference, causal reasoning, and SQL-driven analysis to move from observational data to defensible business decisions.
+*Business question:* when an AI agent can pay for things, what stops it from paying for the wrong thing?
 
-**Architecture focus**  
-`Statistics` · `Causal Inference` · `SQL` · `Experimentation`
+A trust and risk layer that checks agent-initiated payments against policy before they execute. Entered in the **PayPal AI Hackathon**, and being built beyond the hackathon as a production-style product on AWS.
 
-**Status:** Planned
+**Focus**  
+`Agentic AI` · `Payments` · `Policy Enforcement` · `LLM Evaluation`
 
----
-
-### 05 · Real-Time Fraud & Risk Decisioning
-**Machine Learning**
-
-A low-latency ML risk system covering feature pipelines, calibrated predictions, threshold design, online inference, monitoring, and operational decision trade-offs.
-
-**Architecture focus**  
-`Risk Modeling` · `Calibration` · `Streaming` · `MLOps`
-
-**Status:** Planned
+**Status:** In build
 
 ---
 
-### 06 · Personalized Retrieval & Ranking
-**Machine Learning**
+### 04 · NovaMart Multi-Agent Support
+**Multi-agent orchestration · Udacity Future AWS Agent Engineer**
 
-An online recommendation and ranking system combining candidate retrieval, learning-to-rank, personalization, offline evaluation, and production feedback loops.
+A five-agent orchestrator-to-workers support system (inventory, policy, refund and communication agents) with three Bedrock Knowledge Bases and Guardrails. Passed review on first submission.
 
-**Architecture focus**  
-`Recommendations` · `Ranking` · `Personalization` · `Online ML`
+**Focus**  
+`Multi-Agent` · `Bedrock AgentCore` · `Strands Agents SDK` · `RAG`
 
-**Status:** Planned
+**Status:** Complete · [Repository](https://github.com/aaronmalunga/novamart-multi-agent-support)
+
+---
+
+<sub>**Next up:** experimentation &amp; causal decision-making, real-time fraud &amp; risk decisioning, and personalised ranking. Added here as each one ships.</sub>
+
+---
+
+## Hackathons & competitions
+
+| Event | Project | Status |
+|---|---|---|
+| **PayPal AI Hackathon** (Devpost) | AgentGuard | In progress |
 
 ---
 
@@ -103,30 +101,21 @@ An online recommendation and ranking system combining candidate retrieval, learn
 <p>
   <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=flat-square&logo=amazonwebservices&logoColor=232F3E" />
   <img src="https://img.shields.io/badge/Amazon_Bedrock-Generative_AI-8B5CF6?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/SageMaker-ML-1F73B7?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS_Lambda-Serverless-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
-  <img src="https://img.shields.io/badge/DynamoDB-Data-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bedrock_AgentCore-Agents-8B5CF6?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Strands_Agents-SDK-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
 </p>
 
-### Machine Learning & Data
+### Data & Engineering
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-</p>
-
-### Infrastructure & Engineering
-
-<p>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
+
+<sub>Tools are added here once a shipped project uses them.</sub>
 
 ---
 
@@ -134,70 +123,39 @@ An online recommendation and ranking system combining candidate retrieval, learn
 
 | Principle | What it means in practice |
 |---|---|
-| **Start with failure** | Define what can fail, who absorbs the damage, and how the system recovers before selecting services. |
+| **Start with the business question** | Every project names the problem, the people who feel it and the metric that proves it's solved before any service is chosen. |
 | **Separate intelligence from authority** | A model may recommend an action without automatically receiving permission to execute it. |
-| **Design for evidence** | Important architecture claims should be supported by tests, metrics, logs, experiments, or written decisions. |
-| **Treat cost as architecture** | Idle infrastructure, scaling behavior, and teardown strategy are design decisions, not billing afterthoughts. |
-| **Make operations explicit** | Ownership, observability, incident response, privacy, security, and human workflows are part of the product. |
+| **Beat a dumb baseline** | Every AI component is measured against a rules-only or no-AI version, and has to earn its place. |
+| **Treat cost as architecture** | Idle infrastructure, scaling behaviour and teardown are design decisions, not billing afterthoughts. |
 
 ---
 
-## AWS certification roadmap
+## AWS certifications
 
-| Category | Credential | Status |
+| Level | Credential | Status |
 |---|---|---|
-| **Foundational** | AWS Certified AI Practitioner | **Current focus** |
-| **Business** | AWS Certified AI Business Strategist | Planned |
-| **Foundational** | AWS Certified Cloud Practitioner | Planned |
-| **Associate** | AWS Certified Solutions Architect | Planned |
-| **Associate** | AWS Certified Data Engineer | Planned |
-| **Associate** | AWS Certified Machine Learning Engineer | Planned |
+| **Foundational** | AWS Certified AI Practitioner | **[Earned · 2026 ↗](https://www.credly.com/badges/1d53fa3d-7718-4d04-8227-c95aecee6333/public_url)** |
+| **Foundational** | AWS Certified Cloud Practitioner | Scheduled · Nov 2026 |
+| **Business** | AWS AI Business Strategist | Planned |
+| **Associate** | AWS Certified Solutions Architect | Planned · 2027 |
+| **Associate** | AWS Certified Data Engineer | Planned · 2027 |
+| **Associate** | AWS Certified Machine Learning Engineer | Planned · 2027 |
 
-> Earned credentials will link to personal Credly verification. Planned credentials are shown as a roadmap, not as credentials already held.
-
----
-
-## Architecture notebook
-
-I keep a public trail of technical reasoning rather than only publishing finished screenshots.
-
-- **Autonomy Policy for Agentic Systems** — risk levels, approvals, reversibility, and execution authority
-- **Architecture Decision Records** — explicit trade-offs and why a decision was made
-- **Reliability & Operations Notes** — observability, incidents, ownership, privacy, and security
-- **AWS AI/ML Learning Ledger** — implementation lessons connected to certification concepts and real systems
-
----
-
-## Selected engineering evidence
-
-```text
-Reliora
-├── 200+ local tests
-├── RL0–RL3 autonomy controls
-├── Terraform infrastructure
-├── deterministic authorization
-├── human approval paths
-├── observability + incident evidence
-└── architecture decision records
-```
-
-The goal is not to maximize repository count.  
-The goal is to make each serious project **inspectable**.
+> Earned credentials link to Credly verification. Planned credentials are a roadmap, not credentials held.
 
 ---
 
 ## Currently
 
 ```text
-→ Building        Reliora
-→ Studying        AWS Certified AI Practitioner
-→ Deepening       AWS architecture, data engineering, MLOps
-→ Exploring       reliable agentic systems and production ML
+→ Building        Reliora · AgentGuard (PayPal AI Hackathon)
+→ Studying        AWS Cloud Practitioner · B.Sc. Data Science (IU)
+→ Deepening       LLM evaluation, data engineering on AWS
 ```
 
 ---
 
 <p align="center">
-  <b>Cloud · Machine Learning · Agentic Systems</b><br/>
+  <b>Agentic AI · Data Pipelines · AWS</b><br/>
   <sub>Systems &gt; spectacle.</sub>
 </p>
