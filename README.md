@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/github_banner_aws-certified.png" alt="Aaron Malunga — Data & AI Engineer" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github_banner_dark.png">
+    <img src="./assets/github_banner_aws-certified.png" alt="Aaron Malunga — Data & AI Engineer" width="100%">
+  </picture>
 </p>
 
 <p align="center">
@@ -25,6 +28,8 @@ Every project begins with a problem that can be stated in one sentence, is measu
 
 ## Featured systems
 
+<sub>● Shipped &nbsp;·&nbsp; ◐ In build &nbsp;·&nbsp; ○ Planned</sub>
+
 ### 01 · Reliora
 **Trustworthy customer-support agents**
 
@@ -38,7 +43,7 @@ Reliora tiers an agent's authority by risk, from read-only answers up to actions
 **Evidence**  
 `160+ automated tests` · `RL0–RL3 autonomy levels` · `Architecture decision records`
 
-**Status:** In development
+**Status:** ◐ In build
 
 ---
 
@@ -52,7 +57,7 @@ Detects mismatches across contracts, deliveries and invoices, then routes each c
 **Focus**  
 `Agentic AI` · `Data Reconciliation` · `Evaluation` · `Python`
 
-**Status:** In development · repo coming
+**Status:** ◐ In build · repo coming
 
 ---
 
@@ -66,7 +71,7 @@ A trust and risk layer that checks agent-initiated payments against policy befor
 **Focus**  
 `Agentic AI` · `Payments` · `Policy Enforcement` · `LLM Evaluation`
 
-**Status:** In build
+**Status:** ◐ In build
 
 ---
 
@@ -78,11 +83,11 @@ A five-agent orchestrator-to-workers support system (inventory, policy, refund a
 **Focus**  
 `Multi-Agent` · `Bedrock AgentCore` · `Strands Agents SDK` · `RAG`
 
-**Status:** Complete · [Repository](https://github.com/aaronmalunga/novamart-multi-agent-support)
+**Status:** ● Shipped · [Repository](https://github.com/aaronmalunga/novamart-multi-agent-support)
 
 ---
 
-<sub>**Next up:** experimentation &amp; causal decision-making, real-time fraud &amp; risk decisioning, and personalised ranking. Added here as each one ships.</sub>
+<sub>○ **Planned:** experimentation &amp; causal decision-making, real-time fraud &amp; risk decisioning, and personalised ranking. Added here as each one ships.</sub>
 
 ---
 
@@ -90,29 +95,29 @@ A five-agent orchestrator-to-workers support system (inventory, policy, refund a
 
 | Event | Project | Status |
 |---|---|---|
-| **PayPal AI Hackathon** (Devpost) | AgentGuard | In progress |
+| **PayPal AI Hackathon** (Devpost) | AgentGuard | ◐ In build |
 
 ---
 
 ## Technical stack
 
-### Cloud & AI
+**Cloud & AI**
 
 <p>
-  <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=flat-square&logo=amazonwebservices&logoColor=232F3E" />
-  <img src="https://img.shields.io/badge/Amazon_Bedrock-Generative_AI-8B5CF6?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bedrock_AgentCore-Agents-8B5CF6?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Strands_Agents-SDK-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-782A3B?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img alt="Amazon Bedrock" src="https://img.shields.io/badge/Amazon_Bedrock-782A3B?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img alt="Bedrock AgentCore" src="https://img.shields.io/badge/Bedrock_AgentCore-782A3B?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img alt="Strands Agents SDK" src="https://img.shields.io/badge/Strands_Agents_SDK-782A3B?style=flat-square&logo=amazonwebservices&logoColor=white" />
 </p>
 
-### Data & Engineering
+**Data & Engineering**
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-4F6676?style=flat-square&logo=python&logoColor=white" />
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-4F6676?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="pandas" src="https://img.shields.io/badge/pandas-4F6676?style=flat-square&logo=pandas&logoColor=white" />
+  <img alt="pytest" src="https://img.shields.io/badge/pytest-4F6676?style=flat-square&logo=pytest&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-4F6676?style=flat-square&logo=git&logoColor=white" />
 </p>
 
 <sub>Tools are added here once a shipped project uses them.</sub>
@@ -132,23 +137,32 @@ A five-agent orchestrator-to-workers support system (inventory, policy, refund a
 
 ## AWS certifications
 
+| Credential | Status |
+|---|---|
+| **AWS Certified AI Practitioner** | ● **[Earned · 2026 ↗](https://www.credly.com/badges/1d53fa3d-7718-4d04-8227-c95aecee6333/public_url)** |
+| **AWS Certified Cloud Practitioner** | ◐ Scheduled · Nov 2026 |
+
+<details>
+<summary><sub>Full certification roadmap</sub></summary>
+<br/>
+
 | Level | Credential | Status |
 |---|---|---|
-| **Foundational** | AWS Certified AI Practitioner | **[Earned · 2026 ↗](https://www.credly.com/badges/1d53fa3d-7718-4d04-8227-c95aecee6333/public_url)** |
-| **Foundational** | AWS Certified Cloud Practitioner | Scheduled · Nov 2026 |
-| **Business** | AWS AI Business Strategist | Planned |
-| **Associate** | AWS Certified Solutions Architect | Planned · 2027 |
-| **Associate** | AWS Certified Data Engineer | Planned · 2027 |
-| **Associate** | AWS Certified Machine Learning Engineer | Planned · 2027 |
+| Business | AWS AI Business Strategist | ○ Planned |
+| Associate | AWS Certified Solutions Architect | ○ Planned · 2027 |
+| Associate | AWS Certified Data Engineer | ○ Planned · 2027 |
+| Associate | AWS Certified Machine Learning Engineer | ○ Planned · 2027 |
 
-> Earned credentials link to Credly verification. Planned credentials are a roadmap, not credentials held.
+Planned credentials are a roadmap, not credentials held.
+
+</details>
 
 ---
 
 ## Currently
 
 ```text
-→ Building        Reliora · AgentGuard (PayPal AI Hackathon)
+→ Building        Reliora · Revenue Leakage Reconciliation · AgentGuard
 → Studying        AWS Cloud Practitioner · B.Sc. Data Science (IU)
 → Deepening       LLM evaluation, data engineering on AWS
 ```
