@@ -16,7 +16,7 @@
 
 ---
 
-## What I build
+## What I Build
 
 I build **agentic AI and data systems on AWS**, starting from a business question rather than a model.
 
@@ -26,7 +26,7 @@ Every project begins with a problem that can be stated in one sentence, is measu
 
 ---
 
-## Featured systems
+## Featured Systems
 
 <sub>● Shipped &nbsp;·&nbsp; ◐ In build &nbsp;·&nbsp; ○ Planned</sub>
 
@@ -91,15 +91,14 @@ A five-agent orchestrator-to-workers support system (inventory, policy, refund a
 
 ---
 
-## Hackathons & competitions
+## Hackathons & Competitions
 
-| Event | Project | Status |
-|---|---|---|
-| **PayPal AI Hackathon** (Devpost) | AgentGuard | ◐ In build |
+**PayPal AI Hackathon** · Devpost · ◐ In build  
+A build challenge around AI agents and payments. AgentGuard started here and is being taken further as a production system on AWS; see [03 · AgentGuard](#03--agentguard) above.
 
 ---
 
-## Technical stack
+## Technical Stack
 
 **Cloud & AI**
 
@@ -124,7 +123,7 @@ A five-agent orchestrator-to-workers support system (inventory, policy, refund a
 
 ---
 
-## How I think about architecture
+## How I Think About Architecture
 
 | Principle | What it means in practice |
 |---|---|
@@ -135,23 +134,23 @@ A five-agent orchestrator-to-workers support system (inventory, policy, refund a
 
 ---
 
-## AWS certifications
+## AWS Certifications
 
-| Credential | Status |
-|---|---|
-| **AWS Certified AI Practitioner** | ● **[Earned · 2026 ↗](https://www.credly.com/badges/1d53fa3d-7718-4d04-8227-c95aecee6333/public_url)** |
-| **AWS Certified Cloud Practitioner** | ◐ Scheduled · Nov 2026 |
+| Credential | Focus | Status |
+|---|---|---|
+| **AWS Certified AI Practitioner** | AI &amp; generative AI fundamentals | ● **[Earned · 2026 ↗](https://www.credly.com/badges/1d53fa3d-7718-4d04-8227-c95aecee6333/public_url)** |
+| **AWS Certified Cloud Practitioner** | Cloud fundamentals &amp; billing | ◐ Scheduled · Nov 2026 |
 
 <details>
 <summary><sub>Full certification roadmap</sub></summary>
 <br/>
 
-| Level | Credential | Status |
-|---|---|---|
-| Business | AWS AI Business Strategist | ○ Planned |
-| Associate | AWS Certified Solutions Architect | ○ Planned · 2027 |
-| Associate | AWS Certified Data Engineer | ○ Planned · 2027 |
-| Associate | AWS Certified Machine Learning Engineer | ○ Planned · 2027 |
+| Level | Credential | Focus | Status |
+|---|---|---|---|
+| Business | AWS AI Business Strategist | AI adoption &amp; business value | ○ Planned |
+| Associate | AWS Certified Solutions Architect | Architecting on AWS | ○ Planned · 2027 |
+| Associate | AWS Certified Data Engineer | Data pipelines &amp; analytics | ○ Planned · 2027 |
+| Associate | AWS Certified Machine Learning Engineer | ML lifecycle &amp; deployment | ○ Planned · 2027 |
 
 Planned credentials are a roadmap, not credentials held.
 
